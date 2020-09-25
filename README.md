@@ -1,3 +1,32 @@
+# Reproducing Auto Attack using Docker
+
+**by Muhammad Hilmi Asyrofi**
+
+#### Prepare Docker
+pull required docker images to prepare Tensorflow 1.3.0 with Python3 on GPU
+```
+docker pull pytorch/pytorch:1.5.1-cuda10.1-cudnn7-devel
+```
+
+run docker container
+```
+docker run -it --rm --name autoattack -v ~/Documents/auto-attack/:/workspace/auto-attack/ --gpus '"device=0"' pytorch/pytorch:1.5.1-cuda10.1-cudnn7-devel
+```
+```
+cd auto-attack/
+```
+
+install git
+```
+apt-get update
+apt-get install git
+```
+
+install dependency
+```
+pip install git+https://github.com/fra31/auto-attack
+```
+
 # AutoAttack
 
 "Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks"\
