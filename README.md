@@ -27,6 +27,14 @@ install dependency
 pip install git+https://github.com/fra31/auto-attack
 ```
 
+**Run standard version**
+```
+cd examples/
+python eval.py
+```
+
+To see the adversarial images, please go to `show_adversarial_image.ipynb`
+
 # AutoAttack
 
 "Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks"\
