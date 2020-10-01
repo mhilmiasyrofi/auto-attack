@@ -1,0 +1,19 @@
+initial accuracy: 93.70%
+apgd-ce - 1/2 - 500 out of 500 successfully perturbed
+apgd-ce - 2/2 - 437 out of 437 successfully perturbed
+robust accuracy after APGD-CE: 0.00% (total time 43.6 s)
+max Linf perturbation: 0.03137, nan in tensor: 0, max: 1.00000, min: 0.00000
+robust accuracy: 0.00%
+initial accuracy: 0.10%
+apgd-ce - 1/1 - 1 out of 1 successfully perturbed
+robust accuracy after APGD-CE: 0.00% (total time 1.0 s)
+max Linf perturbation: 0.03137, nan in tensor: 0, max: 1.00000, min: 0.00000
+robust accuracy: 0.00%
+initial accuracy: 0.00%
+max Linf perturbation: 0.00000, nan in tensor: 0, max: 1.00000, min: 0.00000
+robust accuracy: 0.00%
+initial accuracy: 0.20%
+apgd-ce - 1/1 - 2 out of 2 successfully perturbed
+robust accuracy after APGD-CE: 0.00% (total time 0.8 s)
+max Linf perturbation: 0.03137, nan in tensor: 0, max: 1.00000, min: 0.00000
+robust accuracy: 0.00%
