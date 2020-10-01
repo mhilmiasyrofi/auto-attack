@@ -58,5 +58,8 @@ geckodriver.log
 
 autoattack/examples/models/
 autoattack/examples/results/
+autoattack/examples/data/
+
 autoattack/cifar10/models/state_dicts/
 autoattack/cifar10/results/
+autoattack/cifar10/data/
