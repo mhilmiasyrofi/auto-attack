@@ -1,0 +1,49 @@
+initial accuracy: 10.30%
+apgd-ce - 1/1 - 27 out of 103 successfully perturbed
+robust accuracy after APGD-CE: 7.60% (total time 2.5 s)
+apgd-t - 1/1 - 46 out of 76 successfully perturbed
+robust accuracy after APGD-T: 3.00% (total time 13.3 s)
+fab-t - 1/1 - 0 out of 30 successfully perturbed
+robust accuracy after FAB-T: 3.00% (total time 33.7 s)
+square - 1/1 - 0 out of 30 successfully perturbed
+robust accuracy after SQUARE: 3.00% (total time 53.1 s)
+max Linf perturbation: 0.03137, nan in tensor: 0, max: 1.00000, min: 0.00000
+robust accuracy: 3.00%
+initial accuracy: 10.30%
+apgd-ce - 1/1 - 2 out of 103 successfully perturbed
+robust accuracy after APGD-CE: 10.10% (total time 2.5 s)
+apgd-t - 1/1 - 3 out of 101 successfully perturbed
+robust accuracy after APGD-T: 9.80% (total time 24.7 s)
+fab-t - 1/1 - 0 out of 98 successfully perturbed
+robust accuracy after FAB-T: 9.80% (total time 59.9 s)
+square - 1/1 - 0 out of 98 successfully perturbed
+robust accuracy after SQUARE: 9.80% (total time 93.2 s)
+max Linf perturbation: 0.03137, nan in tensor: 0, max: 1.00000, min: 0.00000
+robust accuracy: 9.80%
+initial accuracy: 26.60%
+apgd-ce - 1/1 - 266 out of 266 successfully perturbed
+robust accuracy after APGD-CE: 0.00% (total time 5.8 s)
+max Linf perturbation: 0.03137, nan in tensor: 0, max: 1.00000, min: 0.00000
+robust accuracy: 0.00%
+initial accuracy: 26.60%
+apgd-ce - 1/1 - 266 out of 266 successfully perturbed
+robust accuracy after APGD-CE: 0.00% (total time 5.8 s)
+max Linf perturbation: 0.03137, nan in tensor: 0, max: 1.00000, min: 0.00000
+robust accuracy: 0.00%
+initial accuracy: 26.60%
+apgd-ce - 1/1 - 266 out of 266 successfully perturbed
+robust accuracy after APGD-CE: 0.00% (total time 5.7 s)
+max Linf perturbation: 0.03137, nan in tensor: 0, max: 1.00000, min: 0.00000
+robust accuracy: 0.00%
+initial accuracy: 92.90%
+apgd-ce - 1/2 - 398 out of 500 successfully perturbed
+apgd-ce - 2/2 - 332 out of 429 successfully perturbed
+robust accuracy after APGD-CE: 19.90% (total time 19.2 s)
+apgd-t - 1/1 - 1 out of 199 successfully perturbed
+robust accuracy after APGD-T: 19.80% (total time 60.0 s)
+fab-t - 1/1 - 0 out of 198 successfully perturbed
+robust accuracy after FAB-T: 19.80% (total time 119.5 s)
+square - 1/1 - 0 out of 198 successfully perturbed
+robust accuracy after SQUARE: 19.80% (total time 175.8 s)
+max Linf perturbation: 2.42907, nan in tensor: 0, max: 2.75373, min: -2.42907
+robust accuracy: 19.80%
