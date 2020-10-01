@@ -55,3 +55,8 @@ geckodriver.log
 
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+
+autoattack/examples/models/
+autoattack/examples/results/
+autoattack/cifar10/models/state_dicts/
+autoattack/cifar10/results/
