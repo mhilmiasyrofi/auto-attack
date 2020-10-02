@@ -35,6 +35,27 @@ python eval.py
 
 To see the adversarial images, please go to `show_adversarial_image.ipynb`
 
+**Run several models on CIFAR**
+```
+/workspace/auto-attack/autoattack/cifar10/
+
+
+# ResNet18
+python run_attack.py --model resnet18
+
+# VGG16 with Batch Norm
+python run_attack.py --model vgg16bn
+
+# Densenet121
+python run_attack.py --model densenet12
+
+# GoogleNet
+python run_attack.py --model googlenet
+
+# Inceptionv3
+python run_attack.py --model inceptionv3
+```
+
 # AutoAttack
 
 "Reliable evaluation of adversarial robustness with an ensemble of diverse parameter-free attacks"\
