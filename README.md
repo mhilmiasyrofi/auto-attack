@@ -50,10 +50,10 @@ python run_attack.py --model vgg16bn
 python run_attack.py --model densenet12
 
 # GoogleNet
-python run_attack.py --model googlenet
+python run_attack.py --model googlenet --batch_size 64
 
 # Inceptionv3
-python run_attack.py --model inceptionv3
+python run_attack.py --model inceptionv3 --batch_size 64
 ```
 
 # AutoAttack
