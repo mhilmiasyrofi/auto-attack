@@ -16,7 +16,6 @@ if __name__ == '__main__':
     parser.add_argument('--data_dir', type=str, default='./data')
     parser.add_argument('--norm', type=str, default='Linf')
     parser.add_argument('--epsilon', type=float, default=8./255.)
-    parser.add_argument('--model', type=str, default='./model_test.pt')
     parser.add_argument('--n_ex', type=int, default=1000)
     parser.add_argument('--individual', action='store_true')
     parser.add_argument('--save_dir', type=str, default='./results')
@@ -24,16 +23,27 @@ if __name__ == '__main__':
     parser.add_argument('--log_path', type=str, default='./log_file.txt')
     parser.add_argument('--version', type=str, default='standard')
     
+    parser.add_argument('--model', type=str, default='resnet18')
+    
     args = parser.parse_args()
 
-    # load model
-    model = resnet18(pretrained=True)
+#     model = vgg16_bn(pretrained=True)
 #     ckpt = torch.load(args.model)
 #     model.load_state_dict(ckpt)
+    
+    model = resnet18(pretrained=True)
+    if args.model == "vgg16bn" :
+        model = vgg16_bn(pretrained=True)
+    elif args.model == "densenet121" :
+        model = densenet121(pretrained=True)
+    elif args.model == "googlenet" :
+        model = googlenet(pretrained=True)
+    elif args.model == "inceptionv3" :
+        model = inception_v3(pretrained=True)
+        
     model.cuda()
     model.eval()
 
-    # load data
     ####
     # add normalization preprocessing obtained from 
     # https://github.com/huyvnphan/PyTorch_CIFAR10
